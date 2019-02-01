@@ -1,9 +1,9 @@
 body {
-    background-color: black;
+    background-color: #C7F2F2 !important;
     color:gray;
 }
 
-header, main, nav, footer {
+header, main, nav {
     text-align: center;
 }
 
@@ -12,7 +12,7 @@ nav a { /*links within "nav" container */
     padding-bottom: 4px;
     font-size: 1.8em;
     text-decoration: none; /*remove underline */
-    color: white;          /* by default, links are blue*/
+    color: black;     /* by default, links are blue*/
 }
 
 nav a:hover { /*pseudo class */
@@ -21,7 +21,7 @@ nav a:hover { /*pseudo class */
     transition: .9s; /*transition effect */
 }
 
-#me #welcomeText {
+#me, #welcomeText {
     float:left;
 }
 
