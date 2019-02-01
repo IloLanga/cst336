@@ -1,6 +1,6 @@
 body {
     background-color: #C7F2F2 !important;
-    color:gray;
+    color:#808080;
 }
 
 header, main, nav, footer {
@@ -16,13 +16,56 @@ nav a { /*links within "nav" container */
 }
 
 nav a:hover { /*pseudo class */
-    border-bottom: 2px red solid;
+    border-bottom: 2px gray solid;
     font-size: 2em;
     transition: .9s; /*transition effect */
 }
 
 #me, #welcomeText {
-    float:left;
+    /*display:inline;
+    text-align:center;*/
+    display:inline-block;
+    vertical-align:top;
+}
+
+#welcomeText {
+    font-size:20px;
+}
+
+table {
+    margin: 0px auto;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong {
+    color: black;
+}
+
+#table-header {
+    background-color: #FFAD4F;
+}
+
+.table-row {
+    background-color: #FFC582;
+}
+
+ul {
+    text-align: left;
+    padding-left: 200px;
+}
+
+.hobby {
+    color: #FFAD4F;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
 }
 
 footer {
