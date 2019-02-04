@@ -1,8 +1,12 @@
 body {
     background-color: black;
-    color:yellow;
+    color:yellow; 
+}
 
-    
+fghj {
+    font-family: 'Pacifico', cursive;
+    font-size:2em;
+    margin-bottom:0px;
 }
 
 main, header{
