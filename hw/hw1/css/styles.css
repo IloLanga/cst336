@@ -5,6 +5,10 @@ body {
     text-align: justify;
 }
 
+hr {
+    width:50%;
+}
+
 p {
     width: 800px;
     margin-left: 50px;
@@ -39,6 +43,7 @@ h1 {
 }
 
 table {
+    width:900px;
     text-align: center;
     margin-right: 30px;
     margin-left: 50px;
