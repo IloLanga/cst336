@@ -49,6 +49,10 @@ td strong {
     background-color: #FFAD4F;
 }
 
+p {
+    width: 200px;
+}
+
 .table-row {
     background-color: #FFC582;
 }

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<!--
+
+First Website
+and comment
+in html
+(comments can span multiple lines)
+
+-->
+
+<!-- This is the head -->
+<!-- All styles and javascript go inside the head -->
+    <head>
+        
+        <meta charset="utf-8"/>
+        <title> HW1 Malware</title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        
+        <style>
+            #history {
+                display:flex;
+            }
+            
+            #photo_index {
+                width:100px;
+                font-size:80%;
+                text-align:center;
+                padding-bottom:0.5em;
+                margin-right:30px;
+            }
+        </style>
+        
+    </head>
+<!-- closing head -->
+    <body>
+    <!-- This is the body -->
+    <!-- This is where we place the content of our website -->
+    <!-- <body style="background-color:white; color:black"> -->
+        
+        <header>
+            <h1>Computer Worm</h1>
+            <hr width="50%">
+        </header>
+        <nav>
+            <!-- <hr width="50%"/> -->
+            <a href="index.html">Home</a>
+            <a href="ransomeware.html">Ransomware</a>
+            <a href="worm.html">Worm</a>
+            <a href="adware.html">Adware</a>
+        </nav>
+        
+        
+        <main>
+            
+            <br>
+            
+            <div id="definition">
+                
+                <h3><strong>Definition</strong></h3> 
+                <p>A <strong>Computer Worm</strong> is a type of malware that spreads copies
+                of itself from computer to computer. A worm can replicate itself without any human interaction
+                , and it does not need to attach itself to a software program in order to cause damage. </p>
+                <p>Worms can be transmitted via software vulnerabilities. Or computer worms could arrive as attachments in spam emails or instant messages (IMs).
+                Once opened, these files could provide a link to a malicious website or automatically download the computer worm. Once it’s installed,
+                the worm silently goes to work and infects the machine without the user’s knowledge.</p>
+                <br></br>
+                
+            </div>
+            <br>
+            
+            <div id="history">
+                <p><strong>MyDoom</strong> is considered the fastest spreading virus in history,
+                it started on the Kazaa file sharing network ans spread to e-mail networks.
+                With the sheer multiplication potential of harvesting e-mail addresses from a victim's machine,
+                it didn't take long before MyDoom was infecting 1 in 12 e-mail messages on the Internet.
+                As originally reported, MyDoom was scheduled to launch a Denial of Service (DOS) attack on www.sco.com between February 1st and 12th.
+                Each infected machine will become a zombie, attacking SCO with up to 63 connections at a time during that time.</p>
+            
+                <figure id="picture">
+                    <img src="../../img/mydoom.jpg" width="300px" height="200px">
+                </figure>
+                <figure id="picture">
+                    <img src="data:image/png;base64,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" width="300px" height="200px">
+                </figure>
+            </div>
+            
+            <div id="sources">
+                <h3><strong>Sources</strong></h3>
+                <a href="https://us.norton.com/internetsecurity-malware-what-is-a-computer-worm.html">norton.com</br></a>
+                <a href="https://goo.gl/7LC4tq">pcmag.com</a>
+            
+            </div>
+        </main>
+        
+         
+        
+        <!-- This is the footer -->
+        <!-- The footer goes inside the body but not always -->
+        <footer>
+            
+            <hr>
+            <br><br/>
+            Internet Programming. 2019 &copy; Poilliot <br />
+            <strong>Homework</strong> 1 <br />
+            <img src="../../img/CSUMB-logo.png" alt="csumb logo" width="200px"/>
+            
+        </footer>
+        <!-- closing footer -->
+    </body>
+    <!-- closing body -->
+</html>

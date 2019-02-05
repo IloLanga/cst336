@@ -1,0 +1,53 @@
+body {
+    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/jVhILry/modern-grey-abstract-background-4k_nkq5obw1e__F0000.png");
+    /*#DFE4E6;*/
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+p {
+    width: 800px;
+    margin-left: 50px;
+}
+
+header, nav, footer {
+    text-align: center;
+}
+
+nav a { /*links within "nav" container */
+    padding:15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none; /*remove underline */
+    color: black;     /* by default, links are blue*/
+}
+
+nav a:hover { /*pseudo class */
+    border-bottom: 2px gray solid;
+    font-size: 2em;
+    transition: .5s; /*transition effect */
+}
+
+h1 {
+    font-family: 'Georgia', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
+#definition, #history, #history_ {
+    background-color: #C5D2D6;
+}
+
+table {
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 50px;
+}
+
+
+#tabe-header {
+    background-color: white;
+}
+.table-row {
+    background-color: white;
+}
