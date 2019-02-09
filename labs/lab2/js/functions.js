@@ -36,42 +36,48 @@ function checkGuess() {
     }
     guesses.innerHTML += userGuess + ' ';
 
-
-
-    if (userGuess == randomNumber) {
-        winCount++;
-        lastResult.innerHTML = 'Congratulations! You got it right!';
-        lastResult.style.backgroundColor = 'green';
-        lowOrHigh.innerHTML = '';
-        setGameOver();
-    }
-    else if (guessCount == 7) {
-        lostCount++;
-        lastResult.innerHTML = 'Sorry, you lost!';
-        setGameOver();
+    if (isNaN(userGuess)) {
+        lastResult.style.backgroundColor = 'yellow';
+        lowOrHigh.innerHTML = 'Number must be a number';
+        guessCount--;
     }
     else {
-        lastResult.innerHTML = 'Wrong!';
-        lastResult.style.backgroundColor = 'red';
-        if (userGuess < randomNumber) {
 
-            if (userGuess < 1) {
-                lastResult.style.backgroundColor = 'yellow';
-                lowOrHigh.innerHTML = 'Number must be higher than 0';
-                guessCount--;
-            }
-            else {
-                lowOrHigh.innerHTML = 'Last guess was too low!';
-            }
+        if (userGuess == randomNumber) {
+            winCount++;
+            lastResult.innerHTML = 'Congratulations! You got it right!';
+            lastResult.style.backgroundColor = 'green';
+            lowOrHigh.innerHTML = '';
+            setGameOver();
         }
-        else if (userGuess > randomNumber) {
-            if (userGuess > 99) {
-                lastResult.style.backgroundColor = 'yellow';
-                lowOrHigh.innerHTML = 'Number must be lower than 99';
-                guessCount--;
+        else if (guessCount == 7) {
+            lostCount++;
+            lastResult.innerHTML = 'Sorry, you lost!';
+            setGameOver();
+        }
+        else {
+            lastResult.innerHTML = 'Wrong!';
+            lastResult.style.backgroundColor = 'red';
+            if (userGuess < randomNumber) {
+
+                if (userGuess < 1) {
+                    lastResult.style.backgroundColor = 'yellow';
+                    lowOrHigh.innerHTML = 'Number must be higher than 1';
+                    guessCount--;
+                }
+                else {
+                    lowOrHigh.innerHTML = 'Last guess was too low!';
+                }
             }
-            else {
-                lowOrHigh.innerHTML = 'Last guess was too high!';
+            else if (userGuess > randomNumber) {
+                if (userGuess > 99) {
+                    lastResult.style.backgroundColor = 'yellow';
+                    lowOrHigh.innerHTML = 'Number must be lower than 99';
+                    guessCount--;
+                }
+                else {
+                    lowOrHigh.innerHTML = 'Last guess was too high!';
+                }
             }
         }
     }
@@ -97,7 +103,7 @@ function setGameOver() {
 
 function resetGame() {
     guessCount = 1;
-    
+
     var resetParas = document.querySelectorAll('.resultParas p');
     for (var i = 0; i < resetParas.length; i++) {
         resetParas[i].textContent = '';
@@ -112,7 +118,7 @@ function resetGame() {
     lastResult.style.backgroundColor = 'white';
 
     randomNumber = Math.floor(Math.random() * 99) + 1;
-    
+
     totalResult();
-    
+
 }

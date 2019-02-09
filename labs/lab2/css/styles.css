@@ -5,7 +5,7 @@ body{
     font-family: 'Aclonica';
 }
 
-.jumbotron, #directions, #result{
+.jumbotron, #directions, #resultWinLost{
     background-image: url("../img/raindbow.jpg")}
 
 #directions {
@@ -16,7 +16,7 @@ body{
     border-radius:20px;
 }
 
-#result {
+#resultWinLost {
     font-size: 2em;    
     width:300px;
     height:100px;
