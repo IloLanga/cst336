@@ -104,7 +104,6 @@ function resetGame() {
     }
 
     resetButton.style.display = 'none';
-
     guessField.disable = false;
     guessSubmit.disabled = false;
     guessField.value = '';
@@ -115,6 +114,5 @@ function resetGame() {
     randomNumber = Math.floor(Math.random() * 99) + 1;
     
     totalResult();
-    guessField.disable = false;
     
 }
