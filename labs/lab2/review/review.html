@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS review</title>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        <script>
+        
+            function $(id){ //getElement, $ can be a valid function name
+                return document.getElementById(id);
+            }
+            function doMagic(){
+                //alert("it's working!");
+                //document.getElementById("catImage").src="img/now_you_dont.png";
+                $("catImage").src="img/now_you_dont.png";
+                document.getElementById("message").innerHTML="... now you don't !";
+                document.getElementById("message").style.color = "red"; //change de color of the text
+                
+                 document.getElementById("reapearBtn").style.display = "inline";
+                 document.getElementById("doMagicBtn").style.display = "none";
+            }
+            
+            function reapear(){
+                document.getElementById("catImage").src="img/now_you_see_me.png";
+                document.getElementById("reapearBtn").style.display = "none";
+                document.getElementById("doMagicBtn").style.display = "inline";
+            }
+            
+        </script>
+            
+        <style>
+        
+            #reapearBtn {
+            display: none;
+            }
+            
+            
+        </style>
+        
+    </head>
+    <body>
+        
+        <img id="catImage" src="img/now_you_see_me.png"> <br>
+        <span id="message">Now you see me...</span>
+        <br>
+        <button id="doMagicBtn" onclick="doMagic()"> Do Magic!</button>
+        <button id="reapearBtn" onclick="reapear()">Bring it back!</button>
+
+    </body>
+</html>
