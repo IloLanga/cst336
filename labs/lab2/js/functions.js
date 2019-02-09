@@ -110,7 +110,7 @@ function resetGame() {
     }
 
     resetButton.style.display = 'none';
-    guessField.disable = false;
+    guessField.disabled = false;
     guessSubmit.disabled = false;
     guessField.value = '';
     guessField.focus();
