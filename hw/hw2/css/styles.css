@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+    color: black;
+}
+
+h1 {
+    font-size: 40px;
+}
+h5 {
+    font-size: 25px;
+}
+
+active {
+    margin-left: 90px;
+}

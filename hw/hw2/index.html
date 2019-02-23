@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flag Quiz</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <h1>Flag Quiz</h1>
+    <h3>Test your knowledge on flags from around the world !</h3>
+
+    <div id="questions">
+        <div id="question1">
+            <h5>1 - What is the dominent color on China's flag?</h5>
+            <input type="radio" name="q1" id="blue" value="Blue"><label for="blue">Blue</label>
+            <br>
+            <input type="radio" name="q1" id="red" value="Red"><label for="red">Red</label>
+            <br>
+            <input type="radio" name="q1" id="yellow" value="Yellow"><label for="yellow">Yellow</label>
+            <br>
+            <input type="radio" name="q1" id="white" value="White"><label for="white">White</label>
+            <div id="q1_feedback"></div>
+        </div>
+
+        <div id="question2">
+            <h5>2 - Which country is this flag?</h5>
+            <img scr="img/nepal.jpg" alt="nepal" id="nepal">
+            <br>
+            <input type="text" id="q2">
+            <div id="q2_feedback"></div>
+        </div>
+
+        <div id="question3">
+            <h5>3 - Which of the following flags is the French Polynesian's flag</h5>
+            <img src="img/haiti.png" alt="haiti" class="active" id="haiti">
+            <img src="img/nAustralia.jpg" alt="nAus" class="active" id="nAus">
+            <img src="img/FP.png" alt="FP" class="active" id="FP">
+            <div id="q3_feedback"></div>
+        </div>
+
+        <div id="question4">
+            <h5>4 - which country has a gun on their flag?</h5>
+            <input type="radio" name="q2" id="mozambic" value="Mozambic"><label for="Mozambic">Mozambic</label>
+            <br>
+            <input type="radio" name="q2" id="burdini" value="Burdini"><label for="burdini">Burdini</label>
+            <br>
+            <input type="radio" name="q2" id="botswana" value="Botswana"><label for="botswana">Botswana</label>
+            <br>
+            <input type="radio" name="q2" id="nigeria" value="nigeria"><label for="nigeria">Nigeria</label>
+            <div id="q4_feedback"></div>
+        </div>
+
+        <div id="question5">
+            <h5>5 - Which countries have a square flag?</h5>
+            <input type="checkbox" id="Switzerland" value="SW"><label for="Switzerland">Switzerland</label>
+            <input type="checkbox" id="France" value="FR"><label for="France">France</label>
+            <input type="checkbox" id="Vatican" value="VC"><label for="Vatican">Vatican City</label>
+            <input type="checkbox" id="Colombia" value="CB"><label for="Colombia">Colombia</label>
+            <div id="q5_feedback"></div>
+        </div>
+
+        <div id="question6">
+            <h5>How many stars does the American flag have?</h5>
+            <input type="text" id="q6">
+            <div id="q6_feedback"></div>
+        </div>
+
+    </div>
+    </div>
+
+    <script>
+        let q1_value = 10;
+        let q2_value = 18;
+        let q3_value = 18;
+        let q4_value = 18;
+        let q5_value = 18;
+        let q6_value = 18;
+        
+        let q1_answer = "Red";
+        let q2_answer = "nepal";
+        let q3_answer = "FR";
+        let q3_response = 
+        let q4_answer = "Mozambic";
+        let q6_answer = "51";
+        
+        
+    </script>
+
+</body>
+
+</html>
