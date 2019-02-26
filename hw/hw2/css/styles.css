@@ -1,15 +1,50 @@
 body {
     text-align: center;
     color: black;
+    font: Georgia;
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
     font-size: 40px;
+    background-image: linear-gradient(blue, white);
+    color: white;
+    height: 150px;
+    border-radius: 20px
 }
+
 h5 {
     font-size: 25px;
+    background-color: #DE6E1F;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px
 }
 
 active {
     margin-left: 90px;
+
+}
+
+button {
+    background-color: red;background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }

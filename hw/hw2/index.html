@@ -2,10 +2,13 @@
 <html>
 
 <head>
-    <title>Flag Quiz</title>
+    <div class="container">
+        <title>Flag Quiz</title>
+    </div>
 
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 
 </head>
 
@@ -28,8 +31,8 @@
 
         <div id="question2">
             <h5>2 - Which country is this flag?</h5>
-            <img scr="img/nepal.jpg" alt="nepal" id="nepal">
-            <br>
+            <img src="img/nepal.png" alt="flagQ2" id="nepal">
+            <br><br>
             <input type="text" id="q2">
             <div id="q2_feedback"></div>
         </div>
@@ -44,13 +47,13 @@
 
         <div id="question4">
             <h5>4 - which country has a gun on their flag?</h5>
-            <input type="radio" name="q2" id="mozambic" value="Mozambic"><label for="Mozambic">Mozambic</label>
+            <input type="radio" name="q4" id="mozambic" value="Mozambic"><label for="mozambic">Mozambic</label>
             <br>
-            <input type="radio" name="q2" id="burdini" value="Burdini"><label for="burdini">Burdini</label>
+            <input type="radio" name="q4" id="burdini" value="Burdini"><label for="burdini">Burdini</label>
             <br>
-            <input type="radio" name="q2" id="botswana" value="Botswana"><label for="botswana">Botswana</label>
+            <input type="radio" name="q4" id="botswana" value="Botswana"><label for="botswana">Botswana</label>
             <br>
-            <input type="radio" name="q2" id="nigeria" value="nigeria"><label for="nigeria">Nigeria</label>
+            <input type="radio" name="q4" id="nigeria" value="Nigeria"><label for="nigeria">Nigeria</label>
             <div id="q4_feedback"></div>
         </div>
 
@@ -70,25 +73,15 @@
         </div>
 
     </div>
-    </div>
+    <br> <br>
+    <button id="submitBtn">Submit</button>
+    
+    <br> <br>
+    <h3 id="totalPoints"></h3>
+    <br><br>
+    <h2 id="congrats"></h2>
 
-    <script>
-        let q1_value = 10;
-        let q2_value = 18;
-        let q3_value = 18;
-        let q4_value = 18;
-        let q5_value = 18;
-        let q6_value = 18;
-        
-        let q1_answer = "Red";
-        let q2_answer = "nepal";
-        let q3_answer = "FR";
-        let q3_response = 
-        let q4_answer = "Mozambic";
-        let q6_answer = "51";
-        
-        
-    </script>
+    <script SRC="js/function.js"></script>
 
 </body>
 
