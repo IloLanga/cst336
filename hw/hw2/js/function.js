@@ -32,7 +32,7 @@ $("#submitBtn").on("click", function() {
         $("#q1_feedback").html("Correct !").css("color", "green");
         totalPoints += q1_value;
     } else {
-         $("#q1_feedback").html("False...").css("color", "red");
+         $("#q1_feedback").html("False... The answer was red").css("color", "red");
     }
     
     //QUESTION 2
@@ -41,7 +41,7 @@ $("#submitBtn").on("click", function() {
         $("#q2_feedback").html("Correct !").css("color", "green");
         totalPoints += q2_value;
     } else {
-        $("#q2_feedback").html("False...").css("color", "red");
+        $("#q2_feedback").html("False... The answer was Nepal").css("color", "red");
     }
     
     //QUESTION 3
@@ -58,7 +58,8 @@ $("#submitBtn").on("click", function() {
         $("#q4_feedback").html("Correct !").css("color", "green");
         totalPoints += q4_value;
     } else {
-         $("#q4_feedback").html("False...").css("color", "red");
+         $("#q4_feedback").html("False... The answer was Mozambic").css("color", "red");
+         $("#mozambImg").html('<img src="../img/mozambic.png" alt="mozambic">');
     }
     
     //QUESTION 5
