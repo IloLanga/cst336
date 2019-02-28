@@ -22,14 +22,26 @@ $("#zipCode").on("change", function(){
 }); //zipCode
 
 $("#submitBtn").on("click", function(){
+    let isValid = true;
     if ($("#userName").val().length < 4){
         $("#nameError").html("Incorrect username").css("color", "red");
+        isValid = false;
     }
     if($("#password").val().length < 6){
         $("#passwordError").html("Password needs to be at least 6 characters.");
+        isValid = false;
     }
     if($("#confirmPassword").val() != $("#password").val()){
         $("#passwordError").html("Retype password");
+        isValid = false;
+    }
+    
+    if(isValid) {
+        alert("in if");
+        $("#nameError").html("");
+        $("#passwordError").html("");
+    } else {
+        alert("in else");
     }
 });
 //ipoilliot@csumb.edu  ilona poilliot
