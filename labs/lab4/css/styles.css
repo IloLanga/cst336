@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+    background-color: #43BFD1;
+    width: 300px;
+    height: 60px;
+    color: white;
+    border-radius: 10px;
+}
+
+fieldset {
+    background-color: #1465AB;
+    width: 650px;
+    height: 400px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+
+#submitBtn {
+     background-color: #43BFD1;
+}
+
+footer {
+    text-align: center;
+}

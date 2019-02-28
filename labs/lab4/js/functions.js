@@ -42,14 +42,15 @@ $("#userName").on("change", function() {
             "username": $("#userName").val(),
         },
         success: function(data,status) {
-            if (data.available == "true"){
+            alert($("#userName").val());
+            if (data.available == "true" && $("#userName").val().length >= 4){
                 $("#nameError").html("Valid Name").css("color", "green");
             }else{
                 $("#nameError").html("Invalid Name").css("color", "red");
             }
         },
         complete: function(data,status) { //optional, used for debugging purposes
-            // alert(status);
+            // alert("frds");
         }
 
     });//ajax
