@@ -90,17 +90,22 @@
                 
                     type: "GET",
                     url: "api/validatePwd.php", // no need for data type because it is just plain text
-                    dataType: "json",
+                    dataType: "",
                     data: {"username": $("#username1").val(),
                             "pwd" : $("#password").val()
                         },
                     success: function(data, status) {
-                        
-                         //alert("succes");
+                         if (data) {
+                             $("#passCheck").html("username is NOT included in password");
+                             $("#passCheck").css("color", "green");
+                         } else {
+                             $("#passCheck").html("username is included in password");
+                             $("#passCheck").css("color", "red");
+                         }
                 
                     },
                     complete: function(data, status) { //optional, used for debugging purposes
-                        //(status);
+                        //alert(status);
                         
                     }
                 
@@ -136,6 +141,7 @@
                 <br />
                 
                 <h4>Password: </h4><input type="password" id="password" class="form-control text-warning" placeholder="Password">
+                <div id="passCheck"></div>
                 <div id="strongPwd" class="text-warning"></div><br /><br>
             </div>
             
