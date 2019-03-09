@@ -1,0 +1,25 @@
+[08-Mar-2019 01:19:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/ubuntu/workspace/cst336/labs/lab6/getProducts.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/getProducts.php(8): PDO->__construct('mysql:host=loca...', 'root', 'abc')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/getProducts.php on line 8
+[08-Mar-2019 01:20:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'ottermart1'' in /home/ubuntu/workspace/cst336/labs/lab6/getProducts.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/getProducts.php(8): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/getProducts.php on line 8
+[08-Mar-2019 01:24:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_product' doesn't exist' in /home/ubuntu/workspace/cst336/labs/lab6/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/getProducts.php on line 16
+[08-Mar-2019 01:26:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_product' doesn't exist' in /home/ubuntu/workspace/cst336/labs/lab6/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/getProducts.php on line 16
+[08-Mar-2019 01:27:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_product' doesn't exist' in /home/ubuntu/workspace/cst336/labs/lab6/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/getProducts.php on line 16

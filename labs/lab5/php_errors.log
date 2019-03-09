@@ -1,0 +1,13 @@
+[06-Mar-2019 00:36:12 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/cst336/labs/lab5/api/strongPwdAPI.php on line 8
+[06-Mar-2019 00:37:50 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/cst336/labs/lab5/api/strongPwdAPI.php on line 8
+[06-Mar-2019 00:37:52 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/cst336/labs/lab5/api/strongPwdAPI.php on line 8
+[06-Mar-2019 00:38:17 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/cst336/labs/lab5/api/strongPwdAPI.php on line 8
+[06-Mar-2019 00:38:18 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/cst336/labs/lab5/api/strongPwdAPI.php on line 8
+[06-Mar-2019 01:10:14 UTC] PHP Warning:  str_shuffle() expects parameter 1 to be string, array given in /home/ubuntu/workspace/cst336/labs/lab5/api/strongPwdAPI.php on line 26
+[06-Mar-2019 01:10:14 UTC] PHP Stack trace:
+[06-Mar-2019 01:10:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/api/strongPwdAPI.php:0
+[06-Mar-2019 01:10:14 UTC] PHP   2. str_shuffle() /home/ubuntu/workspace/cst336/labs/lab5/api/strongPwdAPI.php:26
+[06-Mar-2019 01:10:46 UTC] PHP Warning:  str_shuffle() expects parameter 1 to be string, array given in /home/ubuntu/workspace/cst336/labs/lab5/api/strongPwdAPI.php on line 26
+[06-Mar-2019 01:10:46 UTC] PHP Stack trace:
+[06-Mar-2019 01:10:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/api/strongPwdAPI.php:0
+[06-Mar-2019 01:10:46 UTC] PHP   2. str_shuffle() /home/ubuntu/workspace/cst336/labs/lab5/api/strongPwdAPI.php:26

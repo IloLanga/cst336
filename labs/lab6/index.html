@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Lab 6: Ottermart Product Search</title>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        
+        <script>
+            
+            $(document).ready(function(){
+               
+               $.ajax({
+               
+                   type: "GET",
+                   url: "api/getProduct.php",
+                   dataType: "json",
+                   success: function(data, status) {
+                       //alert(data);
+                       
+               
+                   },
+                   complete: function(data, status) { //optional, used for debugging purposes
+                       //alert(status);
+                   }
+               
+               }); //ajax
+                
+            });//document ready
+            
+        </script>
+    </head>
+    <body>
+        <h1>Product Search</h1>
+
+    </body>
+</html>

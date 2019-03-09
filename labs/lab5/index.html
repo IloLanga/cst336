@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Sign Up - PHP Web API Version </title>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <script>
+            /*global $*/
+            
+            $(document).ready(function() {
+                $("#username1").change(function() {
+                    $.ajax({
+                        type: "GET",
+                        url: "api/checkUsername_text.php",
+                        data: { "username":$("#username1").val() },
+                        success: function(data,status) {
+                            $("#username1Error").html(data)
+                            if (data == "Available!") {
+                                $("#username1Error").css("color", "green");
+                            } else {
+                                $("#username1Error").css("color", "red");
+                            } 
+                        },
+                        complete: function(data,status) { //optional, used for debugging purposes
+                        //alert(status);
+                        }
+                    
+                    });//ajax
+                });
+                
+                $("#username2").change(function() {
+                    $.ajax({
+
+                        type: "GET",
+                        url: "api/checkUsername_json.php",
+                        dataType: "json",
+                        data: { "username":$("#username2").val() },
+                        success: function(data,status) {
+                        //alert(data);
+                            if(data.available){
+                                $("#username2Error").html("Username is available!");
+                                $("#username2Error").css("color", "green");
+                            }
+                            else {
+                                $("#username2Error").html("Username is unavailable!");
+                                $("#username2Error").css("color", "red");
+                            }
+                        },
+                        complete: function(data,status) { //optional, used for debugging purposes
+                        //alert(status);
+                        }
+                    
+                    });//ajax  
+                }); //username2
+                
+                $("#password").on("click", function() {
+                
+                //alert("hi");
+                
+                
+                $.ajax({
+                
+                    type: "GET",
+                    url: "api/strongPwdAPI.php", // no need for data type because it is just plain text
+                    dataType: "json",
+                    data: {"length": "10" },
+                    success: function(data, status) {
+                        
+                        //alert(data.suggestedPwd);
+                        $("#strongPwd").html("Password suggested : " + data.suggestedPwd);
+                
+                    },
+                    complete: function(data, status) { //optional, used for debugging purposes
+                        //alert(status);
+                    }
+                
+                }); //ajax
+                
+            }); //click password
+            
+            $("#password").on("change", function() {
+                
+                alert("hi");
+                
+                
+                $.ajax({
+                
+                    type: "GET",
+                    url: "api/validatePwd.php", // no need for data type because it is just plain text
+                    dataType: "json",
+                    data: {"username": $("#username1").val(),
+                            "pwd" : $("#password").val()
+                        },
+                    success: function(data, status) {
+                        
+                         alert("succes");
+                
+                    },
+                    complete: function(data, status) { //optional, used for debugging purposes
+                        alert(status);
+                        
+                    }
+                
+                }); //ajax
+                
+            }); //change password
+                
+                
+            });// ready
+            
+            
+            
+            
+            
+            
+        </script>
+    </head>
+    
+    <body class="bg-lightpy-5 text-center">
+        <fieldset>
+            <legend class="py-5 text-center container-fluid bg-danger text-white">
+                <h1>Sign Up</h1>
+            </legend>
+                <div class="form-group text-danger">
+                <h4>First Name: </h4><input type="text" id="firstName" class="form-control" name="firstName" placeholder="First Name"/><br /> 
+                <h4>Last Name: </h4><input type="text" id="lastName" class="form-control" name="lastName" placeholder="Last Name"/> <br />
+                <br />
+                <h4>Username: </h4><input type="text" id="username1" class="form-control" placeholder="Username 1"/>
+                <div id="username1Error"></div> <br />
+                
+                <h4>Username: </h4><input type="text" id="username2" class="form-control" placeholder="Username 2"/>
+                <div id="username2Error" class="error"></div> <br />
+                <br />
+                
+                <h4>Password: </h4><input type="password" id="password" class="form-control text-warning" placeholder="Password">
+                <div id="strongPwd" class="text-warning"></div><br /><br>
+            </div>
+            
+            <button class = "mx-auto btn btn-danger"> Sign up!</button>
+        </fieldset>
+    </body>
+</html>
