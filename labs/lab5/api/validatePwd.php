@@ -11,13 +11,15 @@ $password = $_GET["pwd"];
 
 $data = array();
 
-if (stripos($password, $username) !== false) {
+if (strpos($password, $username) !== false) {
     //echo "username is included in password";
     $data["validPwd"] = false;
 } else {
     //echo "username is NOT included in password";
     $data["validPwd"] = true;
 }
+
+echo json_encode($data);
 
 ?>
 

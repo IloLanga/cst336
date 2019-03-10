@@ -6,7 +6,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+
         <script>
             /*global $*/
             
@@ -39,7 +39,7 @@
                         dataType: "json",
                         data: { "username":$("#username2").val() },
                         success: function(data,status) {
-                        //alert(data);
+                            //alert(data);
                             if(data.available){
                                 $("#username2Error").html("Username is available!");
                                 $("#username2Error").css("color", "green");
@@ -88,21 +88,23 @@
                 
                 $.ajax({
                 
-                    type: "GET",
+                    type: "get",
                     url: "api/validatePwd.php", // no need for data type because it is just plain text
                     dataType: "",
                     data: {"username": $("#username1").val(),
                             "pwd" : $("#password").val()
                         },
                     success: function(data, status) {
-                         if (data) {
-                             $("#passCheck").html("username is NOT included in password");
-                             $("#passCheck").css("color", "green");
-                         } else {
-                             $("#passCheck").html("username is included in password");
-                             $("#passCheck").css("color", "red");
-                         }
-                
+                        //alert(JSON.parse(data).validPwd);
+                        if (JSON.parse(data).validPwd) {
+                            //alert("in if");
+                            $("#passCheck").html("username is NOT included in password");
+                            $("#passCheck").css("color", "green");
+                        } else {
+                            //alert("in else");
+                            $("#passCheck").html("username is included in password");
+                            $("#passCheck").css("color", "red");
+                        }
                     },
                     complete: function(data, status) { //optional, used for debugging purposes
                         //alert(status);
@@ -113,12 +115,7 @@
                 
             }); //change password
                 
-                
-            });// ready
-            
-            
-            
-            
+        });// ready
             
             
         </script>
@@ -147,5 +144,10 @@
             
             <button class = "mx-auto btn btn-danger"> Sign up!</button>
         </fieldset>
+        <footer>
+            
+            <img src="../../img/buddy_verified.png" alt="buddy badge" width="100px"/>
+            
+        </footer>
     </body>
 </html>
