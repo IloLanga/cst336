@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Admin Login Screen </title>
+        
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    </head>
+    <body>
+        </br>
+        </br>
+<!--when clicking on login button will do the action and go in the php file //without POST method we would see the username and passeword in the URL-->
+        <form method="POST" action="loginProcess.php"> 
+            
+            
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">Username</span>
+              </div>
+              <input type="text" class="form-control bg-light" aria-describedby="inputGroup-sizing-default" name="username" id="username">
+            </div>
+            
+            </br>
+            
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">Password</span>
+              </div>
+              <input type="password" class="form-control bg-light" name="password" >
+            </div>
+            
+            <!--Username: <input type="text" name="username" id="username"/> <br/></br>-->
+            
+            <!--Password: <input type="password" name="password"/>-->
+            <br/></br>
+            
+            <input type="submit" class=" btn btn-primary" value="Login!" onclick="return isValid();">
+            
+        </form>
+
+        <script>
+        
+        function isValid() {
+            //alert("hey");
+            
+            
+            $.ajax({
+                
+                type: "GET",
+                url: "loginProcess.php",
+                dataType: "json",
+                success: function(data,status) {
+                    alert(data);
+                
+                },
+                complete: function(data,status) { //optional, used for debugging purposes
+                    alert(status);
+                }
+                
+            });//ajax
+                return true;
+        }
+            
+        
+        </script>
+        <style>
+        body {
+            margin: 200px;
+        }
+    </style>
+    </body>
+</html>
