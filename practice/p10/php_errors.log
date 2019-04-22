@@ -1,0 +1,9 @@
+[22-Apr-2019 20:08:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NULL = NULL + 1 WHERE pollId = NULL' at line 1' in /home/ubuntu/workspace/cst336/practice/p10/api/addPoll.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p10/api/addPoll.php(13): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p10/api/addPoll.php on line 13
+[22-Apr-2019 20:26:24 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/ubuntu/workspace/cst336/practice/p10/api/addPoll.php on line 17
+[22-Apr-2019 20:26:24 UTC] PHP Stack trace:
+[22-Apr-2019 20:26:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/p10/api/addPoll.php:0
+[22-Apr-2019 20:26:24 UTC] PHP   2. PDOStatement->execute() /home/ubuntu/workspace/cst336/practice/p10/api/addPoll.php:17
