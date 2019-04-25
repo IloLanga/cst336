@@ -1,0 +1,21 @@
+[24-Apr-2019 17:07:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.admin' doesn't exist' in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/getAdminsAPI.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/getAdminsAPI.php(7): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/getAdminsAPI.php on line 7
+[24-Apr-2019 17:07:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.admin' doesn't exist' in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/getAdminsAPI.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/getAdminsAPI.php(7): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/getAdminsAPI.php on line 7
+[24-Apr-2019 17:08:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.admin' doesn't exist' in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/getAdminsAPI.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/getAdminsAPI.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/getAdminsAPI.php on line 7
+[24-Apr-2019 23:53:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'finalProject'' in /home/ubuntu/workspace/cst336/_final/inc/dbConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/_final/inc/dbConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/_final/api/loginProcess.php(6): getDatabaseConnection('finalProject')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/_final/inc/dbConnection.php on line 18
