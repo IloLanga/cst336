@@ -322,3 +322,308 @@ Stack trace:
 #1 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(5): getDatabaseConnection('heroku_961575b1...')
 #2 {main}
   thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/dbConnection.php on line 21
+[28-Apr-2019 05:46:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:46:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:46:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:46:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:46:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:46:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:46:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:46:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:46:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:46:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:46:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:46:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:46:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:46:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:46:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:47:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = 'starwars'' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:47:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = 'kitty'' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:47:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:47:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = 'love'' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:47:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:47:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:47:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:47:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = 'starwars'' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:47:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:47:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:47:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:47:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:47:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:47:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:47:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:49:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = 'starwars'' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:49:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = 'kitty'' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:49:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:49:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = 'cat'' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:49:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:49:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:49:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:50:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = 'starwars'' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:50:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = 'starwars'' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:50:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:50:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = 'starwars'' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:50:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:50:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:50:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:50:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = 'starwars'' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:50:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:50:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:50:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:50:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:50:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:50:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:50:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:50:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = 'starwars'' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:51:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = 'starwars'' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 05:52:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 06:06:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 06:06:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 06:06:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 06:13:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = 'starwars'' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 06:13:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = 'starwars'' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 06:13:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lab8_pixabay' WHERE keyword = '<a class=\"favorites\" href=\"#\">cat</a> <a cla' at line 1' in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33

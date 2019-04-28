@@ -12,8 +12,8 @@
             function displayFavorites(keywordLink) {
                 
                // alert($(keywordLink).html());
-               var keyword = $(keywordLink).html().trim();
-               //alert(keyword);
+               var keyword = $(keywordLink).html();
+            //   alert(keyword);
                
                 $.ajax({
                     method: "get",
@@ -24,7 +24,7 @@
                              "keyword": keyword
                             },
                     success: function(data, status) {
-                        //alert(data[0].keyword);
+                        // alert(data[0].keyword);
                         
                          $("#favorites").html("");
                           data.forEach(function(i){
@@ -36,7 +36,7 @@
                         
                     },
                     complete: function(data, status) { //optional, used for debugging purposes
-                     // alert(status);
+                    //   alert(status);
                     }
                   });//ajax
             
@@ -76,6 +76,10 @@
                       //alert(status);
                     }
                   });//ajax
+                  
+              $("#keywords").on("click", ".favorites", function() {
+                  displayFavorites(this);
+              });//function
             
             });//documentReady
             
@@ -90,6 +94,18 @@
             
             
             <div id="favorites"></div>
+            
+        <footer>
+        
+        
+            <hr>
+            <img src="../../img/buddy_verified.png" alt="csumb logo" width="100px"/>
+            <br><br/>
+            Internet Programming. 2019 &copy; Poilliot <br />
+            <strong>Disclaimer:</strong> The information in this webpage is fictious. <br />
+            It is used for academic purpose only <br />
+        
+        </footer>
 
     </body>
 </html>
