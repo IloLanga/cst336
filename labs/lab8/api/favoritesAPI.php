@@ -1,8 +1,8 @@
 <?php
 
 //receives these parameters: action, url, keyword
- include '../../../inc/dbConnection.php';
- $conn = getDatabaseConnection("c9");
+ include 'dbConnection.php';
+ $conn = getDatabaseConnection("heroku_961575b1b250cde");
 
  $action = $_GET['action'];
 
