@@ -1,0 +1,52 @@
+body {
+text-align: center;
+font-family: "Pacifico", cursive, sans-serif;
+
+    background-image: url("bg3.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+img {
+    border-radius: 20px;
+    padding:15px;
+}
+.favorite{
+    cursor: pointer;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  font-family: "Pacifico", cursive, sans-serif;
+}
+
+#favBtn {
+     background-color: #F291CF;
+}
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+input[type=text] {
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  padding-left: 40px;
+  border-radius: 4px;
+  height: 37px;
+}
+
+h1 {
+    font-family: "Pacifico", cursive, sans-serif;
+}
