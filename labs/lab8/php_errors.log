@@ -259,3 +259,66 @@ Stack trace:
 #0 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(33): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php on line 33
+[28-Apr-2019 02:27:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_961575b1b250cde'' in /home/ubuntu/workspace/cst336/labs/lab8/api/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/dbConnection.php(21): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(5): getDatabaseConnection('heroku_961575b1...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/dbConnection.php on line 21
+[28-Apr-2019 02:27:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_961575b1b250cde'' in /home/ubuntu/workspace/cst336/labs/lab8/api/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/dbConnection.php(21): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(5): getDatabaseConnection('heroku_961575b1...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/dbConnection.php on line 21
+[28-Apr-2019 02:28:53 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/cst336/labs/lab8/api/dbConnection.php on line 21
+[28-Apr-2019 02:28:53 UTC] PHP Stack trace:
+[28-Apr-2019 02:28:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:0
+[28-Apr-2019 02:28:53 UTC] PHP   2. getDatabaseConnection() /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:5
+[28-Apr-2019 02:28:53 UTC] PHP   3. PDO->__construct() /home/ubuntu/workspace/cst336/labs/lab8/api/dbConnection.php:21
+[28-Apr-2019 02:28:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/ubuntu/workspace/cst336/labs/lab8/api/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/dbConnection.php(21): PDO->__construct('mysql:host=hero...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(5): getDatabaseConnection('c9')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/dbConnection.php on line 21
+[28-Apr-2019 02:29:19 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/cst336/labs/lab8/api/dbConnection.php on line 21
+[28-Apr-2019 02:29:19 UTC] PHP Stack trace:
+[28-Apr-2019 02:29:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:0
+[28-Apr-2019 02:29:19 UTC] PHP   2. getDatabaseConnection() /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:5
+[28-Apr-2019 02:29:19 UTC] PHP   3. PDO->__construct() /home/ubuntu/workspace/cst336/labs/lab8/api/dbConnection.php:21
+[28-Apr-2019 02:29:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/ubuntu/workspace/cst336/labs/lab8/api/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/dbConnection.php(21): PDO->__construct('mysql:host=hero...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(5): getDatabaseConnection('c9')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/dbConnection.php on line 21
+[28-Apr-2019 02:29:28 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/cst336/labs/lab8/api/dbConnection.php on line 21
+[28-Apr-2019 02:29:28 UTC] PHP Stack trace:
+[28-Apr-2019 02:29:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:0
+[28-Apr-2019 02:29:28 UTC] PHP   2. getDatabaseConnection() /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php:5
+[28-Apr-2019 02:29:28 UTC] PHP   3. PDO->__construct() /home/ubuntu/workspace/cst336/labs/lab8/api/dbConnection.php:21
+[28-Apr-2019 02:29:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/ubuntu/workspace/cst336/labs/lab8/api/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/dbConnection.php(21): PDO->__construct('mysql:host=hero...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(5): getDatabaseConnection('c9')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/dbConnection.php on line 21
+[28-Apr-2019 02:32:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'18.207.176.253' (using password: NO)' in /home/ubuntu/workspace/cst336/labs/lab8/api/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/dbConnection.php(21): PDO->__construct('mysql:host=us-c...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(5): getDatabaseConnection('c9')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/dbConnection.php on line 21
+[28-Apr-2019 02:36:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'18.207.176.253' (using password: NO)' in /home/ubuntu/workspace/cst336/labs/lab8/api/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/dbConnection.php(21): PDO->__construct('mysql:host=us-c...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(5): getDatabaseConnection('heroku_961575b1...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/dbConnection.php on line 21
+[28-Apr-2019 02:37:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_961575b1b250cde'' in /home/ubuntu/workspace/cst336/labs/lab8/api/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/dbConnection.php(21): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/labs/lab8/api/favoritesAPI.php(5): getDatabaseConnection('heroku_961575b1...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/dbConnection.php on line 21

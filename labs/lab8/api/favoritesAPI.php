@@ -2,7 +2,7 @@
 
 //receives these parameters: action, url, keyword
  include 'dbConnection.php';
- $conn = getDatabaseConnection("heroku_961575b1b250cde");
+ $conn = getDatabaseConnection("c9");
 
  $action = $_GET['action'];
 
