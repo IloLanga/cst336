@@ -1,0 +1,60 @@
+[06-May-2019 23:29:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/hw/hw4v2/api/historyAPI.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/hw/hw4v2/api/historyAPI.php(24): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/hw/hw4v2/api/historyAPI.php on line 24
+[06-May-2019 23:33:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/hw/hw4v2/api/historyAPI.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/hw/hw4v2/api/historyAPI.php(24): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/hw/hw4v2/api/historyAPI.php on line 24
+[06-May-2019 23:35:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/hw/hw4v2/api/historyAPI.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/hw/hw4v2/api/historyAPI.php(24): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/hw/hw4v2/api/historyAPI.php on line 24
+[06-May-2019 23:57:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/hw/hw4v2/api/historyAPI.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/hw/hw4v2/api/historyAPI.php(24): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/hw/hw4v2/api/historyAPI.php on line 24
+[07-May-2019 00:00:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/hw/hw4v2/api/historyAPI.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/hw/hw4v2/api/historyAPI.php(24): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/hw/hw4v2/api/historyAPI.php on line 24
+[07-May-2019 00:01:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/hw/hw4v2/api/historyAPI.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/hw/hw4v2/api/historyAPI.php(24): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/hw/hw4v2/api/historyAPI.php on line 24
+[07-May-2019 00:01:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/hw/hw4v2/api/historyAPI.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/hw/hw4v2/api/historyAPI.php(24): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/hw/hw4v2/api/historyAPI.php on line 24
+[07-May-2019 00:04:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/hw/hw4v2/api/historyAPI.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/hw/hw4v2/api/historyAPI.php(25): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/hw/hw4v2/api/historyAPI.php on line 25
+[07-May-2019 00:05:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/hw/hw4v2/api/historyAPI.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/hw/hw4v2/api/historyAPI.php(25): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/hw/hw4v2/api/historyAPI.php on line 25
+[07-May-2019 00:09:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/hw/hw4v2/api/historyAPI.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/hw/hw4v2/api/historyAPI.php(25): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/hw/hw4v2/api/historyAPI.php on line 25
+[07-May-2019 00:10:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/hw/hw4v2/api/historyAPI.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/hw/hw4v2/api/historyAPI.php(24): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/hw/hw4v2/api/historyAPI.php on line 24
+[07-May-2019 00:10:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/hw/hw4v2/api/historyAPI.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/hw/hw4v2/api/historyAPI.php(24): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/hw/hw4v2/api/historyAPI.php on line 24

@@ -1,3 +1,4 @@
+alert("ALLERRRRR");
 
 function searchCat() {
     
@@ -25,7 +26,7 @@ function searchCat() {
                             htmlString += "<div class='row'>";
                             
                             for (let cols=0; cols < 3; cols++) {
-                                htmlString += "<h3 class='name'>"+ array[i++]['strMeal']+"</h3>";
+                                htmlString += "<div class='name'>"+ array[i++]['strMeal']+"</div>";
                                 htmlString += "<img src='"+ array[i++]['strMealThumb']+"' width='300' height='280'>";
                             }//cols for
                             htmlString += "</div>";
@@ -55,7 +56,7 @@ function addKey(keyword) {
             data: { "keyword": keyword,
             "action": "add"},
             success: function(data, status) {
-                // alert(data);
+                alert(data);
                     
                     
                 
