@@ -177,7 +177,7 @@ if (!isset($_SESSION['adminName'])) {
             </div>
 
             
-<!--             <h1 class="text-center">Admin</h1>
+<!--              <h1 class="text-center">Admin</h1>
             
             <div class="row text-center border">
                 <div class="col">
@@ -202,13 +202,11 @@ if (!isset($_SESSION['adminName'])) {
             <div class="row text-center border">
                 <div class="col">
                     <h2> Modify Users </h2>
-                    <!-- TODO: -->
-                    <!--List all Users with [Edit User][Delete User]<br />-->
+                    <!--List all Users with [Edit User][Delete User]<br />
                     <div id="userView" class="text-left"></div>
                     <br />
                 </div>
                                 
-                <!-- TODO: -->
                 <div class="col">
                     <h2> Add Users </h2>
                     <input type="text" id="addUserInputUsername" name="username" placeholder="Username"><br />
@@ -220,7 +218,7 @@ if (!isset($_SESSION['adminName'])) {
                     <br />
                 </div>
             </div>
-            <div id="userMsg" class="text-center"></div>
+            <div id="userMsg" class="text-center"></div> -->
             <br /> -->
             
             <h1 class="text-center">Items</h1>
