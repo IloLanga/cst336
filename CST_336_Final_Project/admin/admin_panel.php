@@ -202,7 +202,6 @@ if (!isset($_SESSION['adminName'])) {
             <div class="row text-center border">
                 <div class="col">
                     <h2> Modify Users </h2>
-                    <!--List all Users with [Edit User][Delete User]<br />
                     <div id="userView" class="text-left"></div>
                     <br />
                 </div>
