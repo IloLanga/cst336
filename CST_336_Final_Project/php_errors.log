@@ -1,0 +1,369 @@
+[24-Apr-2019 17:07:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.admin' doesn't exist' in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/getAdminsAPI.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/getAdminsAPI.php(7): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/getAdminsAPI.php on line 7
+[24-Apr-2019 17:07:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.admin' doesn't exist' in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/getAdminsAPI.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/getAdminsAPI.php(7): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/getAdminsAPI.php on line 7
+[24-Apr-2019 17:08:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.admin' doesn't exist' in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/getAdminsAPI.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/getAdminsAPI.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/getAdminsAPI.php on line 7
+[30-Apr-2019 04:47:43 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/admin/loginProcess.php on line 6
+[30-Apr-2019 04:47:43 UTC] PHP Stack trace:
+[30-Apr-2019 04:47:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/admin/loginProcess.php:0
+[30-Apr-2019 04:47:43 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/admin/loginProcess.php on line 6
+[30-Apr-2019 04:47:43 UTC] PHP Stack trace:
+[30-Apr-2019 04:47:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/admin/loginProcess.php:0
+[30-Apr-2019 04:47:43 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/admin/loginProcess.php on line 8
+[30-Apr-2019 04:47:43 UTC] PHP Stack trace:
+[30-Apr-2019 04:47:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/admin/loginProcess.php:0
+[30-Apr-2019 04:54:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'finalProject.om_admin' doesn't exist' in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/admin/login_process.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/admin/login_process.php(21): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/admin/login_process.php on line 21
+[30-Apr-2019 05:16:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/insertItemsAPI.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/insertItemsAPI.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/insertItemsAPI.php on line 27
+[05-May-2019 18:19:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/insertItemsAPI.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/insertItemsAPI.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/insertItemsAPI.php on line 27
+[05-May-2019 18:20:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/insertItemsAPI.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/insertItemsAPI.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/insertItemsAPI.php on line 27
+[05-May-2019 18:33:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/insertItemsAPI.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/insertItemsAPI.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/insertItemsAPI.php on line 27
+[05-May-2019 18:36:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'type' cannot be null' in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/insertItemsAPI.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/insertItemsAPI.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/insertItemsAPI.php on line 31
+[05-May-2019 18:40:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'type' cannot be null' in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/insertItemsAPI.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/insertItemsAPI.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/insertItemsAPI.php on line 31
+[06-May-2019 16:19:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'undefined' in 'where clause'' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/deleteItemsAPI.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/deleteItemsAPI.php(14): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/deleteItemsAPI.php on line 14
+[06-May-2019 16:32:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'undefined' in 'where clause'' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/deleteItemsAPI.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/deleteItemsAPI.php(14): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/deleteItemsAPI.php on line 14
+[06-May-2019 16:41:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE items.id =  undefined' at line 6' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php on line 29
+[06-May-2019 16:48:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE items.id =  1' at line 6' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php on line 29
+[06-May-2019 16:48:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE items.id =  3' at line 6' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php on line 29
+[06-May-2019 16:49:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id =  1' at line 6' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php on line 29
+[06-May-2019 16:50:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE items.id =  1' at line 6' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php on line 29
+[06-May-2019 16:50:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `items`.`id` =  1' at line 6' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php on line 29
+[06-May-2019 16:52:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `items`.`id` =  '1'' at line 6' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php on line 31
+[06-May-2019 16:52:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `items`.`id` =  '1'' at line 6' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php on line 31
+[06-May-2019 16:52:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `items`.`id` =  '1'' at line 6' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php on line 31
+[06-May-2019 16:52:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `items`.`id` =  '3'' at line 6' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php on line 31
+[06-May-2019 18:34:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `items`.`id =  1' at line 6' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php on line 29
+[06-May-2019 18:39:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `items`.`id =  2' at line 6' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php on line 29
+[06-May-2019 18:41:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id =  1' at line 6' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php on line 29
+[06-May-2019 18:41:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id =  1' at line 6' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php on line 29
+[06-May-2019 18:43:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id =  1' at line 6' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php on line 29
+[06-May-2019 18:48:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id =' at line 6' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php on line 29
+[06-May-2019 18:52:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id =  3' at line 6' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php on line 29
+[06-May-2019 19:07:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id =  5' at line 6' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php on line 29
+[06-May-2019 19:12:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = '5'' at line 6' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php on line 31
+[06-May-2019 19:12:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = '3'' at line 6' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/editItemsAPI.php on line 31
+[08-May-2019 02:56:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test' for key 'PRIMARY'' in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/registerAPI.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/registerAPI.php(20): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/registerAPI.php on line 20
+[08-May-2019 02:59:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test' for key 'PRIMARY'' in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/registerAPI.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/registerAPI.php(20): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/registerAPI.php on line 20
+[08-May-2019 03:01:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test' for key 'PRIMARY'' in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/registerAPI.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/registerAPI.php(20): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/registerAPI.php on line 20
+[08-May-2019 03:03:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test' for key 'PRIMARY'' in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/registerAPI.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/registerAPI.php(20): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/registerAPI.php on line 20
+[08-May-2019 03:12:33 UTC] PHP Warning:  include(inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/registerAPI.php on line 2
+[08-May-2019 03:12:33 UTC] PHP Stack trace:
+[08-May-2019 03:12:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/registerAPI.php:0
+[08-May-2019 03:12:33 UTC] PHP Warning:  include(): Failed opening 'inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/registerAPI.php on line 2
+[08-May-2019 03:12:33 UTC] PHP Stack trace:
+[08-May-2019 03:12:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/registerAPI.php:0
+[08-May-2019 03:12:33 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/registerAPI.php on line 3
+[08-May-2019 03:12:33 UTC] PHP Stack trace:
+[08-May-2019 03:12:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/registerAPI.php:0
+[08-May-2019 03:22:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test' for key 'PRIMARY'' in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/registerAPI.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/registerAPI.php(20): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/registerAPI.php on line 20
+[08-May-2019 03:26:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test11' for key 'PRIMARY'' in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/registerAPI.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/registerAPI.php(20): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/registerAPI.php on line 20
+[08-May-2019 03:43:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test' for key 'PRIMARY'' in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/registerAPI.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/registerAPI.php(20): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/registerAPI.php on line 20
+[08-May-2019 03:59:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test666' for key 'PRIMARY'' in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/registerAPI.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/registerAPI.php(20): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/registerAPI.php on line 20
+[08-May-2019 03:59:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test666' for key 'PRIMARY'' in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/registerAPI.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/registerAPI.php(20): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/registerAPI.php on line 20
+[08-May-2019 04:00:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test6667' for key 'PRIMARY'' in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/registerAPI.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/registerAPI.php(20): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/FinalProject/CST_336_Final_Project/api/registerAPI.php on line 20
+[09-May-2019 03:12:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php(14): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php on line 14
+[09-May-2019 03:14:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php(14): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php on line 14
+[09-May-2019 03:15:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php(14): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php on line 14
+[09-May-2019 03:22:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php(14): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php on line 14
+[09-May-2019 03:23:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php(14): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php on line 14
+[09-May-2019 03:25:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php(14): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php on line 14
+[09-May-2019 03:29:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php(14): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php on line 14
+[09-May-2019 03:31:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php(14): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php on line 14
+[09-May-2019 03:33:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php(14): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php on line 14
+[09-May-2019 05:06:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE gender = NULL' at line 1' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php on line 17
+[09-May-2019 05:07:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE gender = 'F'' at line 1' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php on line 17
+[09-May-2019 05:31:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND name LIKE '%jeans%'' at line 1' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php(32): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php on line 32
+[09-May-2019 05:38:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php on line 33
+[09-May-2019 05:39:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php on line 33
+[09-May-2019 05:41:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByPriceAPI.php on line 33
+[09-May-2019 05:50:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByAPI.php on line 33
+[09-May-2019 06:50:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByAPI.php on line 33
+[09-May-2019 06:52:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByAPI.php(33): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByAPI.php on line 33
+[09-May-2019 06:54:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByAPI.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByAPI.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByAPI.php on line 33
+[09-May-2019 06:57:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByAPI.php:36
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByAPI.php(36): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByAPI.php on line 36
+[09-May-2019 07:08:14 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByAPI.php on line 38
+[09-May-2019 07:08:14 UTC] PHP Stack trace:
+[09-May-2019 07:08:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByAPI.php:0
+[09-May-2019 07:16:19 UTC] PHP Parse error:  syntax error, unexpected '$arr' (T_VARIABLE) in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByAPI.php on line 37
+[09-May-2019 07:19:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByAPI.php:45
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByAPI.php(45): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByAPI.php on line 45
+[09-May-2019 07:19:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByAPI.php:45
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByAPI.php(45): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByAPI.php on line 45
+[09-May-2019 07:22:42 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByAPI.php on line 48
+[09-May-2019 07:22:42 UTC] PHP Stack trace:
+[09-May-2019 07:22:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByAPI.php:0
+[09-May-2019 07:29:34 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByAPI.php on line 50
+[09-May-2019 07:29:48 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByAPI.php on line 50
+[09-May-2019 07:30:36 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByAPI.php on line 51
+[09-May-2019 07:30:40 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/finalProject/CST_336_Final_Project/api/searchByAPI.php on line 51
+[09-May-2019 18:06:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'admin0' for key 'PRIMARY'' in /home/ubuntu/workspace/final/CST_336_Final_Project/admin/addAdmin.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/final/CST_336_Final_Project/admin/addAdmin.php(32): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/CST_336_Final_Project/admin/addAdmin.php on line 32
+[09-May-2019 18:06:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'admin0' for key 'PRIMARY'' in /home/ubuntu/workspace/final/CST_336_Final_Project/admin/addAdmin.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/final/CST_336_Final_Project/admin/addAdmin.php(32): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/CST_336_Final_Project/admin/addAdmin.php on line 32
+[09-May-2019 18:14:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'admin0' for key 'PRIMARY'' in /home/ubuntu/workspace/final/CST_336_Final_Project/admin/addAdmin.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/final/CST_336_Final_Project/admin/addAdmin.php(32): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/CST_336_Final_Project/admin/addAdmin.php on line 32
+[09-May-2019 18:15:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'admin0' for key 'PRIMARY'' in /home/ubuntu/workspace/final/CST_336_Final_Project/admin/addAdmin.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/final/CST_336_Final_Project/admin/addAdmin.php(32): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/CST_336_Final_Project/admin/addAdmin.php on line 32
