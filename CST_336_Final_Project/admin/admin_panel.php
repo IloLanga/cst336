@@ -177,7 +177,7 @@ if (!isset($_SESSION['adminName'])) {
             </div>
 
             
-            <h1 class="text-center">Admin</h1>
+<!--             <h1 class="text-center">Admin</h1>
             
             <div class="row text-center border">
                 <div class="col">
@@ -221,7 +221,7 @@ if (!isset($_SESSION['adminName'])) {
                 </div>
             </div>
             <div id="userMsg" class="text-center"></div>
-            <br />
+            <br /> -->
             
             <h1 class="text-center">Items</h1>
             <div class="row text-center border">
